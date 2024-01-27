@@ -1,0 +1,87 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/xuesheng/list",
+    "pages/xuesheng/add-or-update",
+    "pages/xuesheng/detail",
+    "pages/jiaoshi/list",
+    "pages/jiaoshi/add-or-update",
+    "pages/jiaoshi/detail",
+    "pages/shiyanshixinxi/list",
+    "pages/shiyanshixinxi/add-or-update",
+    "pages/shiyanshixinxi/detail",
+    "pages/shiyanshiyuyue/list",
+    "pages/shiyanshiyuyue/add-or-update",
+    "pages/shiyanshiyuyue/detail",
+    "pages/quxiaoyuyue/list",
+    "pages/quxiaoyuyue/add-or-update",
+    "pages/quxiaoyuyue/detail",
+    "pages/shiyankecheng/list",
+    "pages/shiyankecheng/add-or-update",
+    "pages/shiyankecheng/detail",
+    "pages/shiyanbaogao/list",
+    "pages/shiyanbaogao/add-or-update",
+    "pages/shiyanbaogao/detail",
+    "pages/baoxiuxinxi/list",
+    "pages/baoxiuxinxi/add-or-update",
+    "pages/baoxiuxinxi/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "计算机实验室排课与查询系统小程序",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1798F2",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/shiyanshixinxi/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "实验室信息"
+      },
+      {
+        "pagePath": "pages/shiyankecheng/list",
+        "iconPath": "/static/tabs/icon2.png",
+        "selectedIconPath": "/static/tabs/icon2_act.png",
+        "text": "实验课程"
+      },
+      {
+        "pagePath": "pages/shiyanbaogao/list",
+        "iconPath": "/static/tabs/icon3.png",
+        "selectedIconPath": "/static/tabs/icon3_act.png",
+        "text": "实验报告"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
